@@ -1,0 +1,60 @@
+<wpml-config>
+	<admin-texts>
+		<key name="eventsia_theme_options">
+			<key name="eventsia_search_text" />
+			<key name="eventsia_tag_text" />
+			<key name="eventsia_header_image_title" />
+			<key name="eventsia_header_sub_title" />
+			<key name="eventsia_header_image_link" />
+			<key name="eventsia_header_image_button" />
+			<key name="eventsia_img-upload-footer-image" />
+			<key name="eventsia-img-upload-aboutus-bg-image" />
+			<key name="eventsia_upcoming_title" />
+			<key name="eventsia_upcoming_subtitle" />
+			<key name="eventsia_upcoming_bg_image" />
+			<key name="eventsia_our_speaker_title" />
+			<key name="eventsia-img-upload-speaker-bg-image" />
+			<key name="eventsia_our_speaker_position_1" />
+			<key name="eventsia_our_speaker_position_2" />
+			<key name="eventsia_our_speaker_position_3" />
+			<key name="eventsia_our_speaker_position_4" />
+			<key name="eventsia_our_speaker_position_5" />
+			<key name="eventsia_our_speaker_position_6" />
+			<key name="eventsia_our_speaker_position_7" />
+			<key name="eventsia_our_speaker_position_8" />
+			<key name="eventsia_our_speaker_position_9" />
+			<key name="eventsia_our_speaker_position_10" />
+			<key name="eventsia_our_speaker_position_11" />
+			<key name="eventsia_our_speaker_position_12" />
+			<key name="eventsia_our_gallery_title" />
+			<key name="eventsia_latest_blog_title" />
+			<key name="eventsia_latest_blog_subtitle" />
+			<key name="eventsia_our_testimonial_title" />
+			<key name="eventsia_our_testimonial_bg_image" />
+			<key name="eventsia_sponsors_box_image_1" />
+			<key name="eventsia_sponsors_box_image_2" />
+			<key name="eventsia_sponsors_box_image_3" />
+			<key name="eventsia_sponsors_box_image_4" />
+			<key name="eventsia_sponsors_box_image_5" />
+			<key name="eventsia_sponsors_box_image_6" />
+			<key name="eventsia_sponsors_box_image_7" />
+			<key name="eventsia_sponsors_box_image_8" />
+			<key name="eventsia_sponsors_box_image_9" />
+			<key name="eventsia_sponsors_box_image_10" />
+			<key name="eventsia_sponsors_box_image_11" />
+			<key name="eventsia_sponsors_box_image_12" />
+			<key name="eventsia_redirect_link1" />
+			<key name="eventsia_redirect_link2" />
+			<key name="eventsia_redirect_link3" />
+			<key name="eventsia_redirect_link4" />
+			<key name="eventsia_redirect_link5" />
+			<key name="eventsia_redirect_link6" />
+			<key name="eventsia_redirect_link7" />
+			<key name="eventsia_redirect_link8" />
+			<key name="eventsia_redirect_link9" />
+			<key name="eventsia_redirect_link10" />
+			<key name="eventsia_redirect_link11" />
+			<key name="eventsia_redirect_link12" />
+		</key>
+	</admin-texts>
+</wpml-config>
