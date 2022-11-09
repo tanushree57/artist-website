@@ -1,0 +1,48 @@
+/************************* EVENTSIA CUSTOMIZER CUSTOM CSS **************************************/
+.wp-core-ui .btn-upgrade, #about_eventsia {
+	background-color: #f2095e;
+	border: 1px solid #f2095e;
+	box-shadow: none;
+	color: #fff;
+	margin-top: 10px;
+	border-radius: 0;
+		-ms-transition: all 0.3s ease 0s;
+		-moz-transition: all 0.3s ease 0s;
+		-webkit-transition: all 0.3s ease 0s;
+		-o-transition: all 0.3s ease 0s;
+	transition: all 0.3s ease 0s;
+}
+.wp-core-ui .btn-upgrade:hover, #about_eventsia:hover,
+.wp-core-ui .btn-upgrade:focus, #about_eventsia:focus  {
+	background-color: #bbb;
+	border: 1px solid #bbb;
+	box-shadow: none;
+	color: #fff;
+}
+#eventsia_upgrade{
+	display: block;
+	float: left;
+	width: 100%;
+}
+#about_eventsia{
+	display: block;
+	padding: 10px 0px 10px 0;
+	text-align: center;
+	margin: -5px;
+}
+#customize-controls .control-section-eventsia .accordion-section-title:hover,
+#customize-controls .control-section-eventsia .accordion-section-title:focus {
+	background-color: #fff;
+}
+
+.control-section-eventsia .accordion-section-title .button {
+	margin-top: -10px;
+	font-weight: 600;
+	margin-left: -18px;
+	height: 43px;
+	width: calc(100% + 28px);
+	font-size: 16px;
+	text-align: center;
+	line-height: 38px;
+	margin-bottom: -11px;
+}

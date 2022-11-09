@@ -1,0 +1,78 @@
+
+---Downloaded files---
+The import files for: Eventsia Free were successfully downloaded!
+Initial max execution time = 120
+Files info:
+Site URL = http://localhost/jaspreetsingh
+Data file = C:\wamp64\www\jaspreetsingh\wp-content\plugins\theme-freesia-demo-import\files/dummy/eventsia/eventsia.xml
+Widget file = C:\wamp64\www\jaspreetsingh\wp-content\plugins\theme-freesia-demo-import\files/dummy/eventsia/eventsia-widgets.wie
+Customizer file = C:\wamp64\www\jaspreetsingh\wp-content\plugins\theme-freesia-demo-import\files/dummy/eventsia/eventsia-export.dat
+Redux files:
+not defined!
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+---Importing widgets---
+Main Sidebar : 
+
+Search - No Title - Imported
+TF: Popular Posts - No Title - Imported
+Gallery - Gallery - Imported
+Custom HTML - About Us - Imported
+Tag Cloud - Tags - Imported
+
+Top Header Info : 
+
+Custom HTML - No Title - Imported
+
+Side Menu : 
+
+TF: Popular Posts - No Title - Imported
+
+Contact Page Sidebar : 
+
+Custom HTML - Visit Us - Imported
+Custom HTML - Our Address - Imported
+
+Footer Column 1 : 
+
+Image - About Us - Imported
+Text - No Title - Imported
+
+Footer Column 2 : 
+
+Gallery - Image Gallery - Imported
+
+Footer Column 3 : 
+
+Recent Posts - Recent Posts - Imported
+
+Footer Column 4 : 
+
+Custom HTML - Address - Imported
+
+
+
+---Importing customizer settings---
+Customizer settings import finished!
+
+---ocdi/after_import---
+

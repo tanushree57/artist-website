@@ -1,0 +1,165 @@
+.wp-admin .em.pixelbones{
+	--font-size: inherit;
+	--line-height: inherit;
+	--font-weight : inherit;
+	--font-family : inherit;
+}
+/* New Stuff **/
+@import "partials/mixins";
+.wp-admin {
+	@import 'partials/admin/when';
+	@import 'partials/admin/bookings';
+	@import 'partials/icons';
+	@import 'partials/tooltips';
+	@import 'partials/libraries';
+	@import 'partials/buttons';
+	@import 'partials/selectize';
+
+	--button-icon-padding : 10px !important;
+
+	button.input.em-tooltip-ddm {
+		background-position: calc(100% - 5px) 50% !important;
+		padding-right: 25px !important;
+	}
+	.em-tooltip-ddm-display {
+		margin-top: -7px !important;
+		padding-top: 5px !important;
+		a {
+			margin-bottom: 5px;
+			display: inline-block;
+		}
+		a:focus {
+			outline: 0;
+			box-shadow: none;
+		}
+	}
+	.em {
+		.hidden {
+			display:none;
+			visibility: hidden;
+		}
+	}
+
+	/* Selectize-specific stuff */
+	.selectize-control {
+		&.em-selectize:not(.always-open), &.em-selectize-autocomplete:not(.always-open) {
+			.selectize-input {
+				min-height: calc(1.5em + 0.75rem + 2px) !important;
+				border: 1px solid #8c8f94 !important; // match WP Admin select boxes
+				&.focus {
+					border: 1px solid #8c8f94 !important;
+				}
+			}
+		}
+	}
+}
+.event-form-recurrence {
+	fieldset.inline {
+		display: inline-block;
+	}
+}
+
+.event-form-when {
+	label, legend {
+		display: block;
+		width: 100%;
+		margin-bottom: 8px;
+
+		&.inline-left {
+			width: auto;
+			display: inline-block;
+			padding-right: 5px;
+			padding-left: 3px;
+		}
+	}
+	.em-time-range fieldset {
+		margin-bottom: 10px;
+	}
+	> * {
+		margin-bottom: 15px !important;
+	}
+	> p {
+		margin-bottom: 20px !important;
+	}
+	input.em-date-start-end {
+		width: 100%;
+		background: #fff;
+	}
+}
+
+:not(.em-location-where) .em-location-data {
+	> div:first-child {
+		margin-bottom: 20px;
+	}
+}
+
+.wp-admin {
+	.em-postbox-notice {
+		&.em-postbox-notice-info {
+			border-left: 4px solid #72aee6;
+		}
+		span.status {
+			font-style: italic;
+			&.enabled {
+				color: #00a32a;
+			}
+			&.disabled {
+				color: #999;
+			}
+		}
+	}
+
+
+	.em-settings-notice {
+		background: #fff;
+		border: 1px solid #c3c4c7;
+		border-left-width: 4px;
+		box-shadow: 0 1px 1px rgb(0 0 0 / 4%);
+		margin: 10px 0 20px 0;
+		padding: 20px;
+
+		&.em-settings-notice-info {
+			border-left-color: #72aee6;
+		}
+		p:first-child {
+			margin-top: 0;
+		}
+		p:last-child {
+			margin-bottom: 0;
+		}
+	}
+
+	.dbem_advanced_formatting_modes_row {
+		th {
+			text-decoration: 2px underline dotted #c45500;
+			text-underline-offset: 6px;
+		}
+		th, td {
+			color: #c45500;
+		}
+	}
+
+	.em-menu-formats {
+		textarea {
+			height: 313px;
+		}
+	}
+
+	#em-opt-advanced-formatting{
+		.inside {
+			display: grid;
+			width: 100%;
+			column-gap: 30px;
+			grid-template-columns: min-content 1fr;
+		}
+		.em-af-status {
+			font-size: 110%;
+			font-weight: bold;
+			.em-af-status-save {
+				color: #c45500;
+			}
+		}
+	}
+}
+
+@import 'events_manager_admin.css';

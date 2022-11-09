@@ -1,0 +1,280 @@
+/* Booking Form */
+&.em-event-booking-form {
+	width: 100%;
+	position: relative;
+
+	div#em-loading {
+		background-color: #ffffff;
+		opacity: 50%;
+	}
+	.em-booking-message {
+		// Note that this is a span, allowing something like a DIV to enjoy JS functionality without the styling like in AJAXify
+		padding: 15px !important;
+		margin-bottom: 20px !important;
+		border: 1px solid transparent !important;
+		border-radius: 2.5px !important;
+		display: block !important;
+		color: #084298 !important;
+		background-color: #cfe2ff !important;
+		border-color: #b6d4fe !important;
+
+		p { margin:10px 0px !important; padding:0px; }
+
+		&.em-booking-message-error {
+			color: #842029 !important;
+			background-color: #f8d7da !important;
+			border-color: #f5c2c7 !important;
+		}
+
+		&.em-booking-message-success {
+			color: #0f5132 !important;
+			background-color: #d1e7dd !important;
+			border-color: #badbcc !important;
+		}
+	}
+
+	.em-booking-form {
+		border: 1px solid var(--main-border-color);
+
+		.input-group {
+			display: block !important; /* bootstrap and others interfere with this */
+		}
+	}
+
+	h3.em-booking-section-title {
+		width: auto;
+		background-color: var(--main-bg);
+		color: var(--main-h3-color);
+		font-size: 24px !important;
+		font-weight: bold;
+		padding: 15px 15px;
+		border-width: 1px 0 0 3px;
+		border-style: solid;
+		border-color: var(--main-border-color);
+		margin: 0;
+	}
+
+	.em-button.em-booking-submit {
+		width: 100% !important;
+		padding: 15px;
+		font-size: var(--font-size);
+		font-weight: bold;
+	}
+
+	.em-booking-section {
+		width: auto;
+		float: none;
+		margin: 20px 30px;
+		padding: 0;
+	}
+
+	/* Tickets Table */
+	.em-tickets {
+		border: 0;
+		margin: 0 10px;
+		padding: 0;
+		width: calc(100% - 20px);
+
+		thead {
+			position: absolute;
+			left: -10000px;
+			top: auto;
+			width: 1px;
+			height: 1px;
+			overflow: hidden;
+		}
+
+		tr td, tr th {
+			border: 0;
+		}
+
+		tr td {
+			padding: 15px 15px;
+			border: 0 !important;
+		}
+
+		tr td:first-child {
+			padding-left: 30px;
+		}
+
+		tr td:last-child {
+			padding-right: 30px;
+		}
+
+		tr th {
+			background-color: var(--palette-1-bg);
+			color: var(--palette-1-color);
+			padding: 10px 15px;
+		}
+
+		tr {
+			padding: 0 20px;
+			border-top:1px solid #dedede;
+
+			&:first-child {
+				border-top: 0;
+			}
+		}
+
+		/* Attendee Info i.e. Ticket Bookings */
+		.em-ticket-bookings {
+			&.hidden {
+				display: none !important;
+				visibility: hidden !important;
+			}
+			margin: 0 20px 20px;
+			padding-bottom: 0;
+			border: 0;
+			text-align: left;
+
+			td:last-child {
+				text-align: left;
+			}
+
+			.em-ticket-booking {
+				margin: 0 0 25px;
+				padding: 20px 0 0;
+				border-top: 1px solid #dedede;
+
+				> strong {
+					display: block;
+					margin-bottom: 15px;
+				}
+				&:first-child {
+					border-top: none;
+				}
+			}
+
+			.em-ticket-booking-template {
+				display: none;
+				visibility: hidden;
+			}
+		}
+
+		/* Attendee Info - Legacy */
+		tr.em-attendee-details {
+			border: 0;
+
+			.em-attendee-fieldset {
+				margin: 0 20px 20px;
+			}
+
+			.em-attendee-fieldset p.input-group {
+				padding-bottom: 0;
+			}
+
+			.em-attendee-fields {
+				margin: 0 0 25px;
+				padding: 20px 0 0;
+				border-top: 1px solid #dedede;
+
+				> strong {
+					display: block;
+					margin-bottom: 15px;
+				}
+				&:first-child {
+					border-top: none;
+				}
+			}
+		}
+
+		.em-bookings-ticket-table-spaces {
+			width: 5%;
+
+			select{
+				width: calc(3ch + 30px) !important;
+				padding: 5px 5px 5px 10px !important;
+				margin: 0 !important;
+			}
+		}
+
+	}
+
+	.em-booking-form-details {
+		.em-login-trigger {
+			margin-bottom : 30px;
+		}
+	}
+
+	/* Login Form */
+	.em-login {
+		margin: 10px 0 20px;
+		padding: 0;
+		border: 0;
+
+		.em-login-trigger {
+			font-style: italic;
+		}
+
+		.em-login-content {
+			display: none;
+			margin-bottom: 10px;
+
+			p:first-of-type {
+				margin-bottom: 20px;
+				font-weight: bold;
+			}
+		}
+
+		.em-login-actions {
+			display: flex;
+			align-items: normal;
+			font-size: 15px;
+
+			.em-login-meta {
+				padding-left: 15px;
+			}
+
+			.em-login-rememberme {
+				width: auto;
+				margin-bottom: 8px;
+
+				input {
+					margin: 0 8px 0 0;
+					padding: 0;
+				}
+			}
+
+			.em-login-links a {
+				text-decoration: none;
+
+				a:hover {
+					text-decoration: underline;
+				}
+			}
+		}
+
+		// mobile view
+		&.size-small {
+			.em-login-buttons {
+				max-width: 30%;
+				min-width: 120px;
+				button {
+					width: 100%;
+				}
+			}
+			.em-login-links {
+				span {
+					display: none;
+				}
+				a {
+					display: inline-block;
+					width: 100%;
+					margin-bottom: 5px;
+				}
+			}
+
+		}
+	}
+
+	/* Temp Fixes for Pro */
+	.em-booking-form-payment {
+		.em-booking-gateway-form {
+			margin-bottom: 20px;
+		}
+		.em-bookings-form-gateway-expiry select {
+			width : auto !important;
+			min-width: 100px;
+		}
+	}
+}

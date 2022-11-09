@@ -1,0 +1,20 @@
+#customize-theme-controls #accordion-section-eventsia_plus .accordion-section-title {
+    display: inline-block;
+    width: calc(100% - 24px);
+    text-align: center;
+    background-color: #f2095e;
+    padding: 6px 10px;
+    border: 0;
+}
+
+.control-section-wptrt-button .accordion-section-title .button {
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+    text-align: center;
+    color: #fff;
+    margin: auto;
+    float: inherit;
+    font-size: 15px;
+    font-weight: bold;
+}

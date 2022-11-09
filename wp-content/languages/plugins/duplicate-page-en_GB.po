@@ -1,0 +1,109 @@
+# Translation of Plugins - Duplicate Page - Development (trunk) in English (UK)
+# This file is distributed under the same license as the Plugins - Duplicate Page - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-12-25 18:15:31+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.0-alpha.1\n"
+"Language: en_GB\n"
+"Project-Id-Version: Plugins - Duplicate Page - Development (trunk)\n"
+
+#: inc/admin-settings.php:51
+msgid "Gutenberg Editor"
+msgstr "Gutenberg Editor"
+
+#: inc/admin-settings.php:50
+msgid "Classic Editor"
+msgstr "Classic Editor"
+
+#: inc/admin-settings.php:46
+msgid "Choose Editor"
+msgstr "Choose Editor"
+
+#: duplicatepage.php:316
+msgid "Duplicate This as "
+msgstr "Duplicate This as "
+
+#: inc/admin-settings.php:60
+msgid "Draft"
+msgstr "Draft"
+
+#: inc/admin-settings.php:63
+msgid "Pending"
+msgstr "Pending"
+
+#: inc/admin-settings.php:62
+msgid "Private"
+msgstr "Private"
+
+#: inc/admin-settings.php:61
+msgid "Publish"
+msgstr "Publish"
+
+#: inc/admin-settings.php:81
+msgid "Add a suffix for duplicate or clone post as Copy, Clone etc. It will show after title."
+msgstr "Add a suffix for duplicate or clone post as Copy, Clone etc. It will show after title."
+
+#: duplicatepage.php:78
+msgid "Donate"
+msgstr "Donate"
+
+#. Plugin Name of the plugin
+#: duplicatepage.php:91 duplicatepage.php:345
+msgid "Duplicate Page"
+msgstr "Duplicate Page"
+
+#: inc/admin-settings.php:78
+msgid "Duplicate Post Suffix"
+msgstr "Duplicate Post Suffix"
+
+#. Description of the plugin
+msgid "Duplicate Posts, Pages and Custom Posts using single click."
+msgstr "Duplicate Posts, Pages and Custom Posts using single click."
+
+#: duplicatepage.php:249 duplicatepage.php:265 duplicatepage.php:288
+msgid "Duplicate This"
+msgstr "Duplicate This"
+
+#. Author URI of the plugin
+msgid "https://profiles.wordpress.org/mndpsingh287/"
+msgstr "https://profiles.wordpress.org/mndpsingh287/"
+
+#. Plugin URI of the plugin
+msgid "https://wordpress.org/plugins/duplicate-page/"
+msgstr "https://wordpress.org/plugins/duplicate-page/"
+
+#. Author of the plugin
+msgid "mndpsingh287"
+msgstr "mndpsingh287"
+
+#: duplicatepage.php:77
+msgid "Settings"
+msgstr "Settings"
+
+#: inc/admin-settings.php:9
+msgid "Buy PRO"
+msgstr "Buy PRO"
+
+#: inc/admin-settings.php:9
+msgid "Duplicate Page Settings "
+msgstr "Duplicate Page Settings "
+
+#: inc/admin-settings.php:57
+msgid "Duplicate Post Status"
+msgstr "Duplicate Post Status"
+
+#: inc/admin-settings.php:69
+msgid "Redirect to after click on <strong>Duplicate This Link</strong>"
+msgstr "Redirect to after click on <strong>Duplicate This Link</strong>"
+
+#: inc/admin-settings.php:71
+msgid "To All Posts List"
+msgstr "To All Posts List"
+
+#: inc/admin-settings.php:72
+msgid "To Duplicate Edit Screen"
+msgstr "To Duplicate Edit Screen"

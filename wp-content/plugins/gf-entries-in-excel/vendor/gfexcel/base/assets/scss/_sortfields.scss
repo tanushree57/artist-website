@@ -1,0 +1,69 @@
+div.gfexcel_field-sort-fields {
+    display: flex;
+    margin: 0 -10px;
+
+    > div {
+        flex-basis: 50%;
+        margin: 0 10px;
+    }
+
+    p {
+        margin-bottom: 10px;
+    }
+
+    ul.fields-select {
+        border-radius: 4px;
+
+        li {
+            display: flex;
+            background-color: #f7f7f7;
+            margin: 2px 0;
+            padding: 3px;
+            transition: background-color 200ms ease-in-out, color 200ms ease-in-out;;
+
+            &.light-up {
+                background-color: #006799;
+                color: #FFF;
+
+                i {
+                    color: #fff;
+                }
+            }
+
+            &:first-child {
+                border-top-left-radius: 3px;
+                border-top-right-radius: 3px;
+            }
+
+            &:last-child {
+                border-bottom-left-radius: 3px;
+                border-bottom-right-radius: 3px;
+            }
+        }
+
+        .fa-bars {
+            color: #DDD;
+            margin-right: 5px;
+        }
+
+        .field {
+            white-space: nowrap;
+            overflow: hidden;
+            -ms-text-overflow: ellipsis;
+            text-overflow: ellipsis;
+        }
+    }
+
+    ul.fields-select--enabled {
+        border: 1px solid #1e8cbe;
+        .move i.fa-arrow-right {
+            display: none;
+        }
+    }
+
+    ul.fields-select--disabled {
+        .move i.fa-trash {
+            display: none;
+        }
+    }
+}
